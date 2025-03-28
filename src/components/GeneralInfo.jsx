@@ -4,7 +4,7 @@ export default function GeneralInfo() {
         <fieldset id="generalInfo">
             <legend>General Info</legend>
             <label>Name:
-                <input type="text" name="name" id="name" placeholder="John Smith"/>
+                <input type="text" name="name" id="name"/>
             </label>
             <label>Email: 
                 <input type="email" name="email" id="email" />
