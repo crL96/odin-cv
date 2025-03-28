@@ -1,9 +1,10 @@
+import "../styles/CvDisplay.css";
+
 export default function CvDisplay({userData}) {
     return (
         <div id="cvDisplay">
             <div id="displayGeneral">
-                <h2>General Info</h2>
-                <h3>{userData.name}</h3>
+                <h2>{userData.name}</h2>
                 <p>{userData.email}</p>
                 <p>{userData.phone}</p>
             </div>
