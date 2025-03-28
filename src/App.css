@@ -4,3 +4,53 @@
   padding: 2rem;
   text-align: center;
 }
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  border: 0px;
+  text-align: start;
+  margin-bottom: 0.5rem;
+  font-size: 1.1em;
+}
+
+legend {
+  text-decoration: underline;
+  text-align: center;
+  font-size: 1.3em;
+  line-height: 1.3rem;
+}
+
+form {
+  border: 2px solid black;
+  padding: 2rem;
+}
+
+label {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 0.5rem;
+}
+
+textarea {
+  min-height: 4rem;
+}
+
+input,
+textarea {
+  font-size: 0.95rem;
+  width: 100%;
+}
+
+.dates {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+#editBtn {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+}
