@@ -12,12 +12,14 @@ export default function Experience() {
             <label>Main responsibilities: 
                 <textarea id="responsibilty" name="responsibility"/>
             </label>
-            <label>Start date: 
-                <input type="date" id="startDateJob" name="startDateJob"/>
-            </label>
-            <label>End date: 
-                <input type="date" id="endDateJob" name="endDateJob"/>
-            </label>
+            <div className="dates">
+                <label>Start date:
+                    <input type="date" id="startDateJob" name="startDateJob"/>
+                </label>
+                <label>End date:
+                    <input type="date" id="endDateJob" name="endDateJob"/>
+                </label>
+            </div>
         </fieldset>
     );
 }

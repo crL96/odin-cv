@@ -9,12 +9,14 @@ export default function Education() {
             <label>Title of study: 
                 <input type="text" id="study" name="study"/>
             </label>
-            <label>Start date: 
-                <input type="date" id="startDateEdu" name="startDateEdu"/>
-            </label>
-            <label>End date: 
-                <input type="date" id="endDateEdu" name="endDateEdu"/>
-            </label>
+            <div className="dates">
+                <label>Start date:
+                    <input type="date" id="startDateEdu" name="startDateEdu"/>
+                </label>
+                <label>End date:
+                    <input type="date" id="endDateEdu" name="endDateEdu"/>
+                </label>
+            </div>
         </fieldset>
     );
 }
